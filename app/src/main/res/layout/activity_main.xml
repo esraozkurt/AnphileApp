@@ -4,6 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@color/temabackground"
     tools:context=".view.MainActivity">
 
     <Button
@@ -13,7 +14,7 @@
         android:layout_marginTop="32dp"
         android:onClick="signInClicked"
         android:text="Sign In"
-        android:background="#00C8B3"
+        android:background="@drawable/buttonarkaplan"
         app:layout_constraintStart_toStartOf="@+id/passwordText"
         app:layout_constraintTop_toBottomOf="@+id/passwordText" />
 
@@ -37,7 +38,7 @@
         android:layout_marginTop="32dp"
         android:onClick="signUpClicked"
         android:text="Sign Up"
-        android:background="@color/buttonColor"
+        android:background="@drawable/buttonarkaplan"
         app:layout_constraintEnd_toEndOf="@+id/passwordText"
         app:layout_constraintTop_toBottomOf="@+id/passwordText" />
 
