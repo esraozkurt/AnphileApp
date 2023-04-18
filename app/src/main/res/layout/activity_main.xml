@@ -4,7 +4,6 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#D7040303"
     tools:context=".view.MainActivity">
 
     <Button
@@ -56,13 +55,17 @@
         app:layout_constraintTop_toTopOf="parent" />
 
     <ImageView
-        android:id="@+id/imageView2"
-        android:layout_width="237dp"
-        android:layout_height="133dp"
-        android:layout_marginTop="157dp"
+        android:id="@+id/imageView4"
+        android:layout_width="411dp"
+        android:layout_height="396dp"
+        android:layout_marginTop="2dp"
         android:layout_marginBottom="51dp"
+        app:srcCompat="@drawable/anphle_13"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="20dp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:srcCompat="@drawable/resim1" />
+        app:layout_constraintTop_toTopOf="parent"/>
+
+
 </androidx.constraintlayout.widget.ConstraintLayout>
